@@ -71,4 +71,4 @@ tf.saved_model.save(model,MODEL_DIR + str(1))
 metrics= {'metric_name': ['accuracy','recall'], 'values': ['0.98','0.76']}
 
 df = pd.DataFrame(data=metrics)
-df.to_csv(MODEL_DIR+'metrics/metrics.csv',path=,index=False)
+df.to_csv(MODEL_DIR+'metrics/metrics.csv',index=False)
